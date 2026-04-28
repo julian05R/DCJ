@@ -1,10 +1,12 @@
 import QuienesSomos from "@/UI/quienesSomos";
+import GestionHumanos from "@/UI/gestionHumanos";
 
 
 export default function Home() {
   return (
-    <section className="bg-white">
-      <QuienesSomos/>
+    <section className="">
+      <GestionHumanos/>
+     
     </section>
   );
 }

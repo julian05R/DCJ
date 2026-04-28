@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function QuienesSomos() {
   return (
-    <div className='py-9  border-gray-600  '>
+    <div className="">
         <div className='text-[var(--text)] text-6xl ' >
             <h1>QUINES <span className='text-[var(--navbar)]'>SOMOS</span></h1>
         </div>
