@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --navbar:     #34D399;
+  --navbar:     #4FA58D;
   --text:       #1C1C1C;
 }
 
@@ -14,10 +14,22 @@
   --font-mono: var(--font-geist-mono);
 }
 
-
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-montserrat);
 }
+
+.clip-arrow {
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 20% 100%, 100% 50%, 20% 0);
+}
+
+.clip-arrow-small {
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.clip-left-arrow {
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+
+  

@@ -7,7 +7,7 @@ import { useState } from "react"
 function navbar() {
    const Pathname = usePathname ()
 return (
-    <div className="bg-white  flex justify-between shadow-md shadow-green-300 sticky top-0 z-50
+    <div className="bg-white  flex justify-between shadow-md shadow-[#4FA58D] sticky top-0 z-50
     ">
         <div className="py-0.5">
             <Link href="/">
