@@ -65,14 +65,16 @@ export default function QuienesSomosYSueno() {
           </div>
 
           {/* ICONO */}
-          <div className="flex-shrink-0 relative">
+          <div className="shrink-0 relative">
             <div className="absolute inset-0 bg-[#4FA58D]/10 rounded-2xl transform rotate-3" />
             <div className="relative z-10 bg-white rounded-2xl shadow-xl p-10">
               <Image
                 src="/bombillo.png"
                 alt="Idea"
-                width={200}
-                height={200}
+                width={120}
+                height={60}
+                loading='eager'
+                style={{height: "auto"}}
                 className="object-contain"
               />
             </div>

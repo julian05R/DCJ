@@ -1,16 +1,16 @@
 import QuienesSomos from "@/UI/quienesSomos";
 import GestionHumanos from "@/UI/gestionHumanos";
 import Empleado from "@/UI/empleado";
-import Servicios from "@/UI/servicios";
+import ServiciosView from "@/UI/serviciosView";
 
 
 export default function Home() {
   return (
-    <section className="">
+    <section>
       <GestionHumanos/>
       <QuienesSomos/>
       <Empleado/>
-      <Servicios/>
+      <ServiciosView/>
     </section>
   );
 }
