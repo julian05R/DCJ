@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   icons :"/logo.png",
-  title: "CDJ",
+  title: "DCJ",
   description: "Gestion de talento humano",
   
 };

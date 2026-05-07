@@ -28,7 +28,7 @@ export default function GestionHumanos() {
           </div>
 
           {/* TÍTULO */}
-          <h1 className="text-5xl md:text-6xl font-bold text-[#2E2E2E] leading-tight">
+          <h1 className="text-5xl md:text-5xl font-bold text-[#2E2E2E] leading-tight">
             GESTIÓN <br />
             DEL TALENTO <br />
             <span className="text-[#4FA58D] relative">
@@ -45,12 +45,12 @@ export default function GestionHumanos() {
 
           {/* BOTONES */}
           <div className="flex items-center gap-4 flex-wrap">
-            <Link href="/servicio">
+            <Link href="/servicios">
               <button className="bg-[#4FA58D] hover:bg-[#3e8f79] text-white px-8 py-4 rounded-xl font-semibold text-base transition-all duration-300 shadow-lg shadow-[#4FA58D]/30 hover:shadow-xl hover:scale-105">
                 Ver servicios
               </button>
             </Link>
-            <Link href="/formulario">
+            <Link href="/contacto">
               <button className="border-2 border-[#4FA58D] text-[#4FA58D] hover:bg-[#4FA58D] hover:text-white px-8 py-4 rounded-xl font-semibold text-base transition-all duration-300">
                 Contáctenos
               </button>
@@ -58,7 +58,7 @@ export default function GestionHumanos() {
           </div>
 
           {/* STATS */}
-          <div className="flex items-center gap-8 pt-4 border-t border-gray-100">
+          <div className="flex items-center gap-4 md:gap-8 pt-4 border-t border-gray-100">
             <div>
               <p className="text-2xl font-bold text-[#2E2E2E]">20+</p>
               <p className="text-xs text-gray-500">Años de experiencia</p>
@@ -77,7 +77,7 @@ export default function GestionHumanos() {
         </div>
 
         {/* IMAGEN */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center md:justify-end">
 
           {/* FONDO DECORATIVO DETRÁS DE LA IMAGEN */}
           <div className="absolute inset-0 bg-[#4FA58D]/10 rounded-2xl transform rotate-3" />
@@ -96,7 +96,7 @@ export default function GestionHumanos() {
           </div>
 
           {/* BADGE FLOTANTE */}
-          <div className="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4 z-20 flex items-center gap-3">
+          <div className=" hidden md:flex absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg p-4 z-20 flex items-center gap-3">
             <div className="w-10 h-10 bg-[#4FA58D]/10 rounded-lg flex items-center justify-center">
               <div className="w-5 h-5 bg-[#4FA58D] rounded-full" />
             </div>
