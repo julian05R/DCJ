@@ -27,8 +27,8 @@ return (
                 <span>Servicios</span>
             </Link>
 
-            <Link href="/formulario" className={`${Pathname === "/formulario" ? " px-2 py-1 bg-[var(--navbar)] text-white" : "text-[var(--text)]"} hover:text-white hover:bg-[var(--navbar)] rounded-md bg-auto`}>
-            <span>Formulario</span>
+            <Link href="/contacto" className={`${Pathname === "/contacto" ? " px-2 py-1 bg-[var(--navbar)] text-white" : "text-[var(--text)]"} hover:text-white hover:bg-[var(--navbar)] rounded-md bg-auto`}>
+            <span>Contacto</span>
             </Link>
         </div>
     </div>
