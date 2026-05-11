@@ -1,26 +1,36 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function GestionHumanos() {
   return (
-    <section className="w-full min-h-[90vh] relative overflow-hidden flex items-center"
+    <section
+      className="w-full min-h-[90vh] relative overflow-hidden flex items-center"
       style={{
-        background: 'linear-gradient(135deg, #f0faf6 0%, #ffffff 50%, #e8f8f2 100%)'
+        background:
+          "linear-gradient(135deg, #f0faf6 0%, #ffffff 50%, #e8f8f2 100%)",
       }}
     >
       {/* DECORACIÓN FONDO */}
-      <div className="absolute top-0 right-0 w-96 h-96 rounded-full opacity-10"
-        style={{ background: '#4FA58D', filter: 'blur(80px)', transform: 'translate(30%, -30%)' }}
+      <div
+        className="absolute top-0 right-0 w-96 h-96 rounded-full opacity-10"
+        style={{
+          background: "#4FA58D",
+          filter: "blur(80px)",
+          transform: "translate(30%, -30%)",
+        }}
       />
-      <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full opacity-10"
-        style={{ background: '#4FA58D', filter: 'blur(60px)', transform: 'translate(-30%, 30%)' }}
+      <div
+        className="absolute bottom-0 left-0 w-72 h-72 rounded-full opacity-10"
+        style={{
+          background: "#4FA58D",
+          filter: "blur(60px)",
+          transform: "translate(-30%, 30%)",
+        }}
       />
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 px-6 py-20 relative z-10">
-
         {/* TEXTO */}
         <div className="flex flex-col gap-6">
-
           {/* BADGE */}
           <div className="inline-flex items-center gap-2 bg-[#4FA58D]/10 text-[#4FA58D] px-4 py-2 rounded-full text-sm font-semibold w-fit">
             <div className="w-2 h-2 bg-[#4FA58D] rounded-full animate-pulse" />
@@ -78,7 +88,6 @@ export default function GestionHumanos() {
 
         {/* IMAGEN */}
         <div className="relative flex justify-center md:justify-end">
-
           {/* FONDO DECORATIVO DETRÁS DE LA IMAGEN */}
           <div className="absolute inset-0 bg-[#4FA58D]/10 rounded-2xl transform rotate-3" />
 
@@ -105,9 +114,8 @@ export default function GestionHumanos() {
               <p className="text-xs text-gray-400">Certificación de Calidad</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }
